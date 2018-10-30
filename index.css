@@ -1,0 +1,39 @@
+body{
+	background: url("Marble_background2.jpeg") no-repeat center center fixed;
+	background-size: cover;
+	background-attachment: scroll;
+	margin: 0px;
+}
+
+#titlebar{
+	background-color: #ffff00;
+	height: 48px;
+	position: relative;
+	margin: 0px;
+}
+
+#tb_title{
+	margin: 0px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	white-space: nowrap;
+}
+
+#main{
+	text-align: center;
+}
+
+#title{
+	font-size: 48px;
+	margin: 0px;
+}
+
+#credit{
+	font-size: 12px;
+	position: fixed;
+	bottom: 8px;
+	right: 16px;
+}
